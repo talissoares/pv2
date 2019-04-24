@@ -1,0 +1,61 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício PW</title>
+	 <script type="text/javascript">
+	 
+function teste() {
+if (document.getElementById('paragrafo1').innerHTML == "JS da vitória") {
+document.getElementById('paragrafo1').innerHTML = "JS da derrota"
+} else if(document.getElementById('paragrafo1').innerHTML  == "JS da derrota"){
+document.getElementById('paragrafo1').innerHTML = "JS da vitória"
+}
+}
+	 	
+	 </script>
+</head>
+<body>
+	<h1 style="color:green">Exercicio Js</h1>
+
+	<p id= "paragrafo1">JS da vitória</p>
+	<br>
+	<div>Caixa1</div>
+	<div>Caixa2</div>
+
+	<div onmouseover="teste()">Caixa3</div>
+	<button type="button" onclick="alert('Teste JS')"> Botao</button>
+</body>
+</html>
+--> 
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício PW</title>
+	 <script type="text/javascript">
+	 function teste() {
+	    var paragrafo1 = document.getElementById('paragrafo1');
+        for (var i = 1; i <=10; i++) {
+          paragrafo1.innerHTML = paragrafo1.innerHTML + "<br>" + i;
+        	  }
+
+
+} 	
+	 </script>
+</head>
+<body>
+	<h1 style="color:green">Exercicio Js</h1>
+
+	<p id= "paragrafo1">JS da vitória</p>
+	<br>
+	<div>Caixa1</div>
+	<div>Caixa2</div>
+
+	<div onmouseover="teste()">Caixa3</div>
+	<button type="button" onclick="alert('Teste JS')"> Botao</button>
+</body>
